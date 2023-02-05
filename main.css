@@ -1,0 +1,103 @@
+@import url(E:\Projects of editing\Html Projects\Task1 Landing Page\text)
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "poppins", sans-serif;
+}
+body{
+	margin: 0;
+}
+section{
+	position: relative;
+	min-height: 100vh;
+	background-image: url("image1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.container{
+	margin: 0 14%;
+}
+.promotext{
+	padding-top: 24%;
+	color: #ddedff;
+	text-shadow: 1px 1px 11px #022e77;
+}
+.promotext h3{
+font-size: 3rem;	
+line-height: 0.2;
+}
+.promotext p{
+	font-size: 1.4rem;
+	font-weight: 150;
+	margin-top: 20px;
+}
+.login{
+	position: absolute;
+	padding: 40px 70px;
+	text-align: center;
+	box-shadow: 3px 6px 30px 8px rgb(58, 58, 58 / 15%);
+	background:rgb(0, 52, 134 / 50%);
+	right: 15%;
+	bottom: 20%;
+	height: 57%;
+	border-top-color: #56aaff;
+	border-left-color: #56aaff;
+	border-bottom-color: #00000030;
+	border-right-color: #00000030;
+	border-radius: 8px;
+	backdrop-filter: blur(5px);
+
+}
+.login h4{
+	font-size: 28px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	color: #d7f52b;
+}
+.login p{
+	font-size: 18px;
+	color: #d7f52b;
+	margin-bottom: 100px;
+}
+.inputbox{
+	position: relative;
+	margin-bottom: 50px;
+}
+.inputbox input {
+	font-size: 24px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	color: #eff9ff;
+	border: none;
+	border-bottom: 1px solid #abe0ff;
+	background-color: transparent;
+	padding: 3px 2px;
+	outline: none;
+}
+.inputbox span{
+	position: absolute;
+	left: 2px;
+	bottom: 40px;
+	letter-spacing: 1px;
+	color: #efff93;	
+}
+.button{
+	position: relative;
+	cursor: pointer;
+	background: #c0dc20;
+	color: #022e79;
+	font-weight: 600;
+	padding: 18px 80px;
+	text-transform: uppercase;
+	border-radius: 40px;
+	box-shadow: 0 3px 8px 2px rgb(60, 60, 60 / 30%); 
+	margin-top: 20px;	
+	transition: all 0.2s ease-in-out;
+}
+.button:hover{
+	background-color: #cfee21;
+	box-shadow: 0 3px 8px 2px rgb(99, 99, 99 / 30%);
+}
